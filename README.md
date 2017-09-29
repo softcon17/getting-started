@@ -1,6 +1,6 @@
 # getting-started
 
-In preparation for the bootbacmp session, here is our recommended list of software you should have installed or available to you, to get you on your way
+In preparation for the bootcamp session, here is our recommended list of software you should have installed or available to you, to get you on your way
 
 ## Sofware it will be handy to have
 
