@@ -4,11 +4,12 @@ In preparation for the bootbacmp session, here is our recommended list of softwa
 
 ## Sofware it will be handy to have
 
-In order to work on a life sample application, it will be benifital to have the following apps installed:
+In order to work on a live sample application, it will be beneficial to have the following apps installed:
 
--PostgresSQL databse (And management GUI of your preference) loaded with sample tables and data
+-PostgresSQL database (And management GUI of your preference) loaded with sample tables and data
 -NodeJS (Reccomend Version 8 or above)
 -NPM
+
 ## How to install above stofware
 
 If you are not familiar with the software listed above, check out some more information here:
@@ -19,15 +20,15 @@ The postgreSQL community installer can be found at https://www.enterprisedb.com/
 
 ### Install a CLI or DB Management GUI
 
-Once you DB is installed you will need a way to access it! Depending on where / how you installed PostgreSQL you may already have this! If not, pgadmin (https://www.pgadmin.org/) has a simple to use interface and will do the job for the purposes of the session
+Once your DB is installed you will need a way to access it! Depending on where / how you installed PostgreSQL you may already have this! If not, pgadmin (https://www.pgadmin.org/) has a simple to use interface and will do the job for the purposes of the session.
 
 ### Creating the Database
 
-Once you have a database up and running, and an admin UI to view it in, lets go ahead and create a database! So within pgAdmin4 (or your manager of choice), create a new database called uksoftcon17, and within that, execute the SQL from the create_the_tables.sql file. You will see that this create our bookings and machines tables that we will need to hook our api up too later
+Once you have a database up and running and an admin UI to view it in, lets go ahead and create a database! So within pgAdmin4 (or your manager of choice), create a new database called uksoftcon17, and within that, execute the SQL from the create_the_tables.sql file in this repo. You will see that this creates our bookings and machines tables that we will need to hook our API up to later.
 
 ### Populating the Database
 
-Inserting some sample data is the last step of the database install and setup process. Now you can have fun and do your own, or use ours! If you want to use the sample provided, run the sql from the populate_the_database.sql inside the newly created database
+Inserting some sample data is the last step of the database install and setup process. Now you can have fun and do your own, or use ours! If you want to use the sample provided, run the sql from the populate_the_database.sql inside the newly created database.
 
 ### Installing NodeJS (JavaScript Server) and NPM (Package Manager)
 
