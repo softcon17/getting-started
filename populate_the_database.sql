@@ -3,3 +3,8 @@ INSERT INTO public.MACHINES (id, name, status, location) VALUES ('b27a9c93-6c2a-
 INSERT INTO public.MACHINES (id, name, status, location) VALUES ('a6fb1c0c-8fc5-4473-8da0-7b68f9235ea8','Poker Bot','Disabled', 'LAB 1');
 INSERT INTO public.MACHINES (id, name, status, location) VALUES ('55c547da-66e8-40f6-8807-bfde9a708206','Robot Hoover','Online', 'LAB 2');
 INSERT INTO public.MACHINES (id, name, status, location) VALUES ('52f72699-c684-4986-b2e2-13b46589baf2','Cat MEME Generator','Online', 'LAB 2');
+INSERT INTO public.BOOKINGS (machine_id, job_id, date, timeslot) VALUES ('947ecd65-5997-4919-b5e0-daeb6f969496','j12345','2017-10-03','1');
+INSERT INTO public.BOOKINGS (machine_id, job_id, date, timeslot) VALUES ('947ecd65-5997-4919-b5e0-daeb6f969496','j12346','2017-10-03','2');
+INSERT INTO public.BOOKINGS (machine_id, job_id, date, timeslot) VALUES ('947ecd65-5997-4919-b5e0-daeb6f969496','j99999','2017-10-03','3');
+INSERT INTO public.BOOKINGS (machine_id, job_id, date, timeslot) VALUES ('947ecd65-5997-4919-b5e0-daeb6f969496','j01234','2017-10-03','4');
+INSERT INTO public.BOOKINGS (machine_id, job_id, date, timeslot) VALUES ('b27a9c93-6c2a-48d3-9693-ece0b93818a6','j77716','2017-10-03','1');
