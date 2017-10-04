@@ -1,14 +1,14 @@
 # getting-started
 
-In preparation for the bootcamp session, here is our recommended list of software you should have installed or available to you, to get you on your way
+In preparation for the bootcamp session, here is our recommended list of software you should have installed or available to you, to get you on your way. This will allow you more time to focus on the tasks at hand
 
 ## Sofware it will be handy to have
 
 In order to work on a live sample application, it will be beneficial to have the following apps installed:
 
--PostgresSQL database (And management GUI of your preference) loaded with sample tables and data
--NodeJS (Reccomend Version 8 or above)
--NPM
+- PostgresSQL database (And management GUI of your preference) loaded with sample tables and data
+- NodeJS (Reccomend Version 8 or above)
+- NPM
 
 ## How to install above stofware
 
