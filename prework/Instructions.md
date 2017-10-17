@@ -24,7 +24,17 @@ Next we move onto the server technology. In this case we are going to be using N
 
 The standard NodeJS deployment also comes with NPN, which is the node package manager (or you can use yarn if you prefer), which we will use to grab the required dependences when we run our app during the lab.
 
-# Step 6 - Verifying NodeJS and NPM
+# Step 6 - Installing NodeJS Packages
+
+To run our application locally, you'll need to have both [Bower](https://bower.io/) and [Gulp](https://gulpjs.com/) installed globally. We can use NPM to install these packages with the following command:
+
+```
+npm install -g bower gulp
+```
+
+NB: You may see some warnings about Bower being no longer supported, but these can be safely ignored.
+
+# Step 7 - Verifying NodeJS and NPM
 
 Finally you can check NPM and node install correctly by running:
 ```
