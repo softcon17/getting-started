@@ -28,11 +28,13 @@ In our case remember that we are using NodeJS as the Javascript server for the b
 
 NodeJS has a [simple exe](https://nodejs.org/en/download/) that can be installed, and handily also installs [npm](https://www.npmjs.com/), which is the dependency manager that Node uses.<br/><br/>
 
-Once installed we need to finally install gulp, which provies the web services that will run the user interface application. As NPM is insanely powerful, we can actually install gulp using it. And by using a -g flag, also make it available across the entire machine. You can install running:
+Once installed we need to finally install [Gulp](https://gulpjs.com/) and [Bower](https://bower.io/). Gulp provides the web services that will run the user interface application, while Bower packages up JavaScript assets for the user's client. As NPM is insanely powerful, we can actually install gulp using it. And by using a -g flag, also make it available across the entire machine. You can install running:
 
 ```
-npm install gulp -g
+npm install -g gulp bower
 ```
+
+NB: You may see some warnings about Bower being no longer supported, but these can be safely ignored.
 
 Finally you can check NPM and node install correctly by running:
 
@@ -41,11 +43,21 @@ node -v // Should return 8.Something or greater
 npm -v // Should return 5.Something or greater
 ```
 
+### Getting the Code
+
+#### Install Git Version Control
+
+Git allows you to safely change and share code. To install on Windows, use [Git for Windows](https://git-for-windows.github.io/).
+
+#### Get the Example User Interface
+
+You can download the example-user-interface from our [Github repository](https://github.com/softcon17/example-user-interface). You can download a zip archive using this [direct link](https://github.com/softcon17/example-user-interface/archive/master.zip) or, if you are confident using Git, [clone](https://git-scm.com/docs/git-clone) the repository to your local machine.
+
 ### Run the User Interface Locally
 
 That's enough reading and waiting, let's get our first app up and running!<br/><br/>
 
-First up is the user interface application, so download the project files from the 'example-user-interface' repo, and make sure you have a shell session that is located within the folder <br/><br/>
+First up, make sure you have a shell session that is located within the folder you downloaded the example-user-interface in to.<br/><br/>
 
 It was touched on earlier that npm is the package manager that is used by node. Take a look at the `package.json` file to see what dependencies need installing for the microservice.<br/><br/>
 
