@@ -1,8 +1,6 @@
 # Step 5 - Collaborate
 
-
 ## Pause - Microservice Architecture
-
 
 The next thing on our to-do list is to now connect our user interface to all the microservices. But before we do this, lets firstly pause to refresh our minds on why microservices are important / how we can use them to our advantage.<br/><br/>
 
@@ -18,26 +16,14 @@ As long as the user interface application knows how to interact with these, the 
 
 ## Connecting the apps together
 
-So we have your one microservice, but we already know that we need a few to get this front end application up and running. So lets put that microservice architecture into practice and connect a single user interface to these multiple microservices.<br/><br/>
+So we have your one microservice running locallay and in predix, but we already know that we need a few a few more links to complete all the boxes within the UI cog menu. So lets put that microservice architecture into practice and connect a single user interface to these multiple microservices.<br/><br/>
 
-To save you some time, we have already pushed the user interface for you, so you can now navigate straight too:
+So back to our predix based front-end then 
 ```
 https://conference-booking-ui-app.run.aws-usw02-pr.ice.predix.io
 ```
 
-If you click on the cog icon with the user interface application, you can see we have written in the ability to set your own location for each microservice endpoint.<br/><br/>
-
-Pop in the GET URL you have been working on into either the bookings or machine status section by inputting the url (not forgetting the https), and pressing update. If all goes well, you will see data filling the corresponding section of the application ui.<br/><br/>
-
-This is to illustrate what was mentioned above, that as long as you keep the specification the same, you can connect up to as many miroservices as you want.<br/><br/>
-
-><b>See an error?</b><br/>
->Browsers try really hard to prevent you from doing unsafe things, and it is most likely due to this
-> thing called C.O.R.S [more info] (https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) which essentially means that
-> if the resource is coming from anywhere other than itself, it will block it. This is one of the many
-> little things that it is handy to know about when doing local dev. Assuming you are using chrome,
-> the quickest way to disable this checking when developing is to install the 'Allow-Control-Allow-Origin' chrome extension, then toggle it on. Don't forget to toggle it off when
-> you have finished your local testing :)
+>If you have closed your browser window since last time, you will again need to pop in the GET URL you have been working on into either the bookings or machine status section by inputting the url (not forgetting the https), and pressing update.
 
 ## Collaborate
 

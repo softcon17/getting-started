@@ -1,11 +1,11 @@
 # Predix Starter Bootcamp
 
 # A quick recap....
-You have hopefully been assigned one of 3 different microservices to work on over the course of the lab. <br/><br/>
+You have hopefully been assigned one of 3 different microservices to work on over the course of the lab (Keep an eye out for sheets of paper on each row if you are not sure). <br/><br/>
 
-We will start by downloading and running the frontend user interface application, and then move into building the functionality for your microservice.
+We will start by downloading and running the frontend user interface application locally, and then move into building the functionality for your microservice.
 
-> Make sure you remember to follow the right set of instructions that correspond with your group when you reach <b>step 2</b>!
+> Make sure you remember to follow the right set of instructions that correspond with your group as we advance through the lab.
 
 After that we get pushing and connecting, sending our microservice into Predix, and connecting the user interface to yours and other peoples microservices.<br/><br/>
 
@@ -39,6 +39,6 @@ During the lab you will be pulling, updating and then pushing one of the three t
 
 ## [prebuilt-environment](https://github.com/softcon17/prebuilt-environment)
 
-[This is a zip file](https://github.com/softcon17/prebuilt-environment/archive/master.zip) which contains the getting started repo, example interface and microservice applications, already built with their dependencies installed. <br/><br/>
+[This is a zip file](https://github.com/softcon17/prebuilt-environment/archive/master.zip) which contains the getting started repo, example interface and microservice applications, already built with their dependencies installed. Its too big for github, so give one of the support team a shout if you want to use it.<br/><br/>
 
 Now if you are thinking that committing dependencies to git is a bad idea, you would be right. But as you proceed through the lab, if things seem to be taking forever to install, or you are missing dependencies due to your local laptop setup, this is a handy fallback so you can get up and running in time to get stuck into the good stuff!

@@ -19,7 +19,6 @@ The microservice handles all things booking. So getting the current bookings, an
 
 You will need to download from the <b>booking-microservice</b> repo
 
-
 ## Download and Install the Microservice
 
 Firstly we need to get the code for the microservice we are going to be responsible for updating and pushing, so clone the repo for your group number repo and navigate to it using shell.<br/><br/>
@@ -55,7 +54,7 @@ What you will see displayed is the JSON [(more about JSON REST)](https://www.inf
 
 But UH-OH, where's the data!?! Maybe we need to update this endpoint in a second to add some data!?!<br/><br/>
 
-Before we do that, we have mentioned the quick and dirty way to start the application, but what about the proper way?<br/><br/>
+Before that, we have mentioned the quick and dirty way to start the application, but what about the proper way?<br/><br/>
 
 Say we want to parameterise the launch of the application to pass in additional configuration, or automatically run tests on startup. We would want these commands to be taken care of for us without having to type them in every time right!?!<br/><br/>
 
