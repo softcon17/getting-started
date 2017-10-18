@@ -145,7 +145,9 @@ Let's see what happens if we activate the 'id' line, re-run the app, and access 
 ```
 So one object down, now we just need to add the rest. Use the information that is provided from the enabling the 'console.log' to try and add in the rest of the objects that are required to be returned to meet your endpoint specification<br/><br/>
 
-Once completed we can test locally. Add the localhost URL you have been testing into the GET MACHINE (or GET BOOKINGS) url within the cog menu in the UI app, and if all goes to plan you should see the list of machines (or bookings) fill up with lots of lovely data!<br/><br/>
+Once completed we can test locally. Add the localhost URL you have been testing into the GET MACHINE (or GET BOOKINGS) url within the cog menu in the UI app that you have running locally, and if all goes to plan you should see the list of machines (or bookings) fill up with lots of lovely data!<br/><br/>
+
+> If you closed the shell that was running your local app, you will need get that up and running again also
 
 Lets now get this suff into predix! We can do this by using the same command as we did before
 ```
