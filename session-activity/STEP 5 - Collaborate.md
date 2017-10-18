@@ -42,4 +42,4 @@ This is to illustrate what was mentioned above, that as long as you keep the spe
 ## Collaborate
 
 Lets prove that we can all work on different microservice, and re-use them to aid our own application! <br/><br/>
-Go around the room and find a different endpoint URL for each of the boxes on the cog page from your fellow attendees. Once you have got your boxes filled, and the application is running in its full glory, make sure to show one of the event helpers to claim your free sticker!
+Go around the room and find a different endpoint URL for each of the boxes on the cog page from your fellow attendees. Once you have got your boxes filled, and the application is running in its full glory, make sure to show one of the event helpers to brag about your excellent code skills!
