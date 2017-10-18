@@ -1,6 +1,6 @@
 # Step 2 - Get your Code
 
-Now that we have a front end running, we need to create our very own microservice to hook up to it. <b>You will see that each group has been given a different one to work on</b>, and we will talk about that more in step 5, so for now you will have to trust us when we say there is a plan!<br/><br/>
+Now that we have a front end running, we need to create our very own microservice to hook up to it. <b>You will see that each group has been given a different one to work on</b>, and we will talk about that more in a future step, so for now you will have to trust us when we say there is a plan!<br/><br/>
 
 The microservice we are creating will handle one of three things:
 
