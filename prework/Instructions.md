@@ -22,7 +22,7 @@ Inserting some sample data is the last step. Now you can have fun and do your ow
 
 Next we move onto the server technology. In this case we are going to be using NodeJS. You can read more about it at https://nodejs.org/en/, and again this can be installed via mytech.
 
-The standard NodeJS deployment also comes with NPN, which is the node package manager (or you can use yarn if you prefer), which we will use to grab the required dependences when we run our app during the lab.
+The standard NodeJS deployment also comes with NPM, which is the node package manager (or you can use yarn if you prefer), which we will use to grab the required dependences when we run our app during the lab.
 
 # Step 6 - Installing NodeJS Packages
 
