@@ -21,9 +21,11 @@ You will need to download from the <b>booking-microservice</b> repo
 
 ## Download and Install the Microservice
 
-Firstly we need to get the code for the microservice we are going to be responsible for updating and pushing, so clone the repo for your group number repo and navigate to it using shell.<br/><br/>
+Firstly we need to get the code for the microservice we are going to be responsible for updating and pushing, so clone or downlaod the repo for your group number repo.<br/><br/>
 
-Just like the front end application, we need install all the dependencies that make up our app. So if you look in the root of the folder you can see that we again have a package.json file, so lets go and use the same technique as last time to install them all, running:
+Then in your second shell tab we need to naviage to this folder. So again using your `cd` commands, naviagte through your file system to the donwload location. You can verify you are in the right place by using the `ls` command to check the files listed are the same as thoes when you open the folder with file explorer.<br/><br/>
+
+Just like the front end application, we need install all the dependencies that make up our app. So if you look in the root of the folder you can see that we again have a `package.json` file, so lets go and use the same technique as last time to install them all, running in your second shell:
 
 ```
 npm install
@@ -46,7 +48,7 @@ or if you are assigned to the bookings microservice
 ```
 http://localhost:3000/api/v1/booking
 ```
-What you will see displayed is the JSON [(more about JSON REST)](https://www.infoworld.com/article/3204125/apis/the-rules-for-rest-how-to-be-restful-in-httpjson-apis.html) object that returned containing a list of all out machines:
+What you will see displayed is the JSON [(more about JSON REST)](https://www.infoworld.com/article/3204125/apis/the-rules-for-rest-how-to-be-restful-in-httpjson-apis.html) object that returned containing a list of all our machines or bookings:
 
 ```
 [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]
@@ -58,14 +60,14 @@ Before that, we have mentioned the quick and dirty way to start the application,
 
 Say we want to parameterise the launch of the application to pass in additional configuration, or automatically run tests on startup. We would want these commands to be taken care of for us without having to type them in every time right!?!<br/><br/>
 
-This is where the package.json file saves the day again! Take a look at the scripts section, and you will see:
+This is where the `package.json` file saves the day again! Take a look at the scripts section, and you will see:
 ```
 "SET NODE_ENV=dev && node main.js"
 ```
 Where we are doing exactly what was just mentioned. You can add as many scripts as you like, depending on what you are trying to achieve. To launch the app using the scripts (assuming you have cancelled the already running instance of the app), you swap from instructing node to start the app, to npm, so:
 ```
-npm start
+npm run start
 ```
-If you want to take your testing to the next level, applications such as 'postman' can be used to test your API's [advice can be found here](http://blog.getpostman.com/2017/07/28/api-testing-tips-from-a-postman-professional/), but or today we will be focusing on testing GET requests, and only in the browser.<br/><br/>
+If you want to take your testing to the next level, applications such as 'postman' can be used to test your API's [advice can be found here](http://blog.getpostman.com/2017/07/28/api-testing-tips-from-a-postman-professional/), but today we will be focusing on testing GET requests, in the browser only.<br/><br/>
 
 > This sample app doesn't 'hot reload', so if you make changes to the code, and wonder why nothing is changing when you hit the endpoint, you may need to cancel the running instance of the microservice and run it again

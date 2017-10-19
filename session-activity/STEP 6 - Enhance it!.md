@@ -10,7 +10,7 @@ Here are a few ideas of things you might want to try to take your skills to the 
 
 ### Javascript
 - Use console.log statements to gain a better understanding of how the code works
-- Try to add your own new  /api/v1/helloworld GET endpoint
+- Try to add your own new /api/v1/helloworld GET endpoint
 - Add input validation to existing endpoints to make sure the inputs are being provided
 - Modify the get bookings endpoint to return machine name instead of machine id (You will need to update the SQL query to include a join
 

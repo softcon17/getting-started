@@ -57,11 +57,31 @@ You can download the example-user-interface from our [Github repository](https:/
 
 That's enough reading and waiting, let's get our first app up and running!<br/><br/>
 
-First up, make sure you have a shell session that is located within the folder you downloaded the example-user-interface in to.<br/><br/>
+During the session you will need to hop between apps running locally, and thoes running in Predix. We reccomend that as this time you open up two different command shells, one to run the `frontend`, another that we will will later use to manage the `backend`. As you will need to start and stop these applications a few times of the course of the session, it is much easier to have two, and have one that is set to run in the correct repo for each. <br/><br/>
+
+<b> But what shell should i use?</b><br/>
+If you are on windows, try searching using the start menu for `powershell ise`. The nice thing about this this is that via the `file` menu you can create multiple tabs within the same window.. so if you have it this would a great way to prevent you from getting confused over the course of the session. If not, try to search for `powershell`, `gitbash` or `cmd`. Give the support team a shout (or ask someone who looks like theyve sussed it) if you are struggling with this.<br/><br/>
+
+So lets get the frontend application up and running in the first shell window. You need to first naviate to the folder where you downloaded the code too. When you open the shell you will likley see something like this that indicates your current location:
+```
+C:\Users\<USERID>\...
+```
+
+You can use the `cd` command to now naviate to the correct place. Most terminals will also try to help you out, so try typing:
+```
+cd ./Doc
+```
+And then press tab. Hopefully it works out you were meaning to go to dour documents folder, and completes the folder name for you. Press enter and you should see your path change to show you have now moved one folder further in:
+```
+C:\Users\<USERID>\Documents\...
+```
+Keep going with this untill you get inside the example frontend folder. You can also type in the command `ls` if you want to see the folders and files that are accessible from your current location.<br/><br/>
+
+#### Installing Dependencies
 
 It was touched on earlier that npm is the package manager that is used by node. Take a look at the `package.json` file to see what dependencies need installing for the microservice.<br/><br/>
 
-We can install everything in this file programmatically using the following command from within the teams microservice folder:
+We can install everything in this file programmatically using the following command from within the teams microservice folder in the shell we just set up:
 
 ```
 npm install
@@ -69,23 +89,18 @@ npm install
 
 You will then see a node_modules folder has appeared, and there are now lots of folders inside it. If you are wondering why there are so many, welcome to JavaScript!!! Each one of the modules that you install by defining in your package.json also has its own package.json, which may in turn install a bunch more dependencies, and this can repeat for many layers.<br/><br/>
 
-When it comes to package managers, there are many! So in our case we actually have a different package manager that controls which re-useable user interface components our app uses. You can see these in the 'bower.json' file time. We can install these using the command:
+When it comes to package managers, there are many! So in our case we actually have a different package manager that controls which re-useable user interface components our app uses. You can see these in the `bower.json` file time. We can install these using the command:
 
 ```
 bower install
 ```
 
-Finally we need to compile and minify the code so it runs super fast when we push it to Predix! We have implemented this using a gulp build chain, so can do this using
-
-```
-gulp build
-```
-See how it has added another folder called 'build' to your project?<br/><br/>
+>If we were looking to launch a producionised application, we would also need to compile and minify the code so it runs super fast when we push it to Predix! We have implemented this using a gulp build chain, so you can also try `gulp build`. See how it has added another folder called 'build' to your project?<br/><br/>
 
 Dependencies installed, now its time to run the thing! Lets try and use the npm script that was mentioned above this time, so within the folder run the command:
 
 ```
-npm start
+npm run start
 ```
 
 It takes a few seconds to run, but eventually a browser should pop open and you can see the user interface in all its glory!

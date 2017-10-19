@@ -8,7 +8,9 @@ While the way that each cloud provider (eg AWS, AZURE, PREDIX) may differ in the
 
 If you have not already provided the email address for your Predix account to one of the lab support team members, now would be the time to do so, as to test your Predix access, you need it granted to our lab space firstly!
 
-Once the lab support team give you the nod, verify you are able to login to Predix by then running the following from a shell terminal:
+Once the lab support team give you the nod, lets try to push the backend microservice as-is. Firstly we need to stop it from running locally, the filesytem doesnt get upset by trying to push locked files. So from within our second shell that had the `Application Started on Port 3000` message in it, press `CTRL + C` to stop the run command.<br/><br/>
+
+Next verify you are able to login to Predix by then running the following from the shell terminal:
 
 ```
 cf login -a https://api.system.aws-usw02-pr.ice.predix.io -u <YOUR USERNAME>
@@ -34,12 +36,11 @@ So we need to:
 ![Predix Push](https://memecrunch.com/meme/7CGL7/push-it-real-good/image.gif?w=400&c=1)
 <br/><br/>
 
+We tell Predix what we want it to do with our application via the `manifest.yml` file.<br/><br/>
 
-Make sure you are back in the application folder of your teams groups microservice.<br/><br/>
+So firstly change the application name from 'yourname-xxxx' to something more useful, and that should be it!
 
-We tell Predix what we want it to do with our application via the 'manifest.yml' file.<br/><br/>
-
-So firstly change the application name from 'yourname-xxxx' to something more useful, and that should be it!<br/><br/>
+> If you have not already opened the micoservice folder with an IDE of your choosing, now would be a good time to do so, as trying to read code in notepad is not the easiest. Visual Studio Code, Atom or even Code Writer (For windows 10 users only) will all make your life simpler
 
 The rest of file defines the memory the app should use, and most importantly, the Predix database instance the app should connect too. You can define plenty of other things in the manifest too, so check out [the cf docs](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html) for more info.<br/><br/>
 
@@ -69,11 +70,15 @@ buildpack: https://github.com/cloudfoundry/nodejs-buildpack
 #0   running   2017-10-09 11:41:15 AM   0.0%   33.9M of 512M   61.8M of 1G                                                                     
 ```
 
-So check our microservice is bringing back results, let's perform the same test as we did locally, and use our browser to see what data it returns.<br/><br/>
+So check our microservice is bringing back results, let's perform the same test as we did locally but against our lovely new app running in predix, and use our browser to see what data it returns.<br/><br/>
 
 Copy out the URL of your newly pushed app (so yourname-bootcamp-booking-app.run.aws-usw02-pr.ice.predix.io) in my case, and put this into your browser URL bar.
 
 >Don't forget to add https:// to the front of the address!
+
+```
+https://yourname-bootcamp-booking-app.run.aws-usw02-pr.ice.predix.io/api/v1/<WHATEVER-I-PUT-IN-LOCALLY>
+```
 
 Hopefully you will see the same data as you did from your local test, but this time it is coming from our lab sessions group shared database! <br/><br/>
 
@@ -92,10 +97,10 @@ Group 2 -> PUT MACHINE STATUS
 Group 3 -> POST BOOKING
 
 ```
-> If you are Group 2 or 3, you will also need to add `https://sample-update-machine-microservice.run.aws-usw02-pr.ice.predix.io` to the GET MACHINES input box
+> If you are Group 2 or 3, you will also need to add `https://sample-update-machine-microservice.run.aws-usw02-pr.ice.predix.io` to the GET MACHINES input box so you can select a machine to test with
 
 
-You can enter the same URL and (hopefully!) get different results not due to any sort of magic, but because the METHOD is different (Look at the REST cheatsheet if you need more info on this), so although they look the same, the one you tested earlier is using the GET method, and the one you just entered is using either a POST or a PUT method depending on the group <br/><br/>
+You can enter the same URL and (hopefully!) get different results not due to any sort of magic, but because the `METHOD` is different (Look at the REST cheatsheet if you need more info on this), so although they look the same, the one you tested earlier is using the `GET` method, and the one you just entered is using either a `POST` or a `PUT` method depending on the challange <br/><br/>
 
 Finally go the section of the UI that relates to your group and try this new endpoint.<br/><br/>
 
