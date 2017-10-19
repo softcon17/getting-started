@@ -4,7 +4,7 @@ Great stuff, we are up and running. Now why not try to make some changes to the 
 Here are a few ideas of things you might want to try to take your skills to the next level.<br/><br/>
 
 ### Predix
-- Add another instance to your application (This is like adding a load balancer of clusering an application)
+- Add another instance to your application (This is like creating a clustered application with a load balancer)
 - View recent application logs (Check out the cheetsheet for example commands)
 - Download, and push another groups microservice example (Eg pick the booking-microservice if you were working on a machine one)
 
