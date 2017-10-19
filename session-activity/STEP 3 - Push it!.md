@@ -40,7 +40,7 @@ We tell Predix what we want it to do with our application via the `manifest.yml`
 
 So firstly change the application name from 'yourname-xxxx' to something more useful, and that should be it!
 
-> If you have not already opened the micoservice folder with an IDE of your choosing, now would be a good time to do so, as trying to read code in notepad is not the easiest. Visual Studio Code, Atom or even Code Writer (For windows 10 users only) will all make your life simpler
+> If you have not already opened the microservice folder with an IDE of your choosing, now would be a good time to do so, as trying to read code in notepad is not the easiest. Visual Studio Code, Atom or even Code Writer (For windows 10 users only) will all make your life simpler
 
 The rest of file defines the memory the app should use, and most importantly, the Predix database instance the app should connect too. You can define plenty of other things in the manifest too, so check out [the cf docs](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html) for more info.<br/><br/>
 
@@ -100,7 +100,7 @@ Group 3 -> POST BOOKING
 > If you are Group 2 or 3, you will also need to add `https://sample-update-machine-microservice.run.aws-usw02-pr.ice.predix.io` to the GET MACHINES input box so you can select a machine to test with
 
 
-You can enter the same URL and (hopefully!) get different results not due to any sort of magic, but because the `METHOD` is different (Look at the REST cheatsheet if you need more info on this), so although they look the same, the one you tested earlier is using the `GET` method, and the one you just entered is using either a `POST` or a `PUT` method depending on the challange <br/><br/>
+You can enter the same URL and (hopefully!) get different results not due to any sort of magic, but because the `METHOD` is different (Look at the REST cheatsheet if you need more info on this), so although they look the same, the one you tested earlier is using the `GET` method, and the one you just entered is using either a `POST` or a `PUT` method depending on the challenge <br/><br/>
 
 Finally go the section of the UI that relates to your group and try this new endpoint.<br/><br/>
 
@@ -108,11 +108,11 @@ If you are in <b>group 1:</b>
 ```
 Fill in the name and location fields with your own name, and press create machine. 
 ```
-For thoes in <b>group 2:</b>
+For those in <b>group 2:</b>
 ```
-Try to change one of the exising machine status 
+Try to change one of the existing machine status 
 ```
-And thoes in <b> group 3:</b>
+And those in <b> group 3:</b>
 ```
 Try to create a new booking
 ```
@@ -126,4 +126,4 @@ Now bask in your success again! Come up to the stage and refresh this list of ma
 > the quickest way to disable this checking when developing is to install the 'Allow-Control-Allow-Origin' chrome extension, then toggle it on. Don't forget to toggle it off when
 > you have finished your local testing :)
 
-So there have it, weve not done a real transaction in our microservice. Its about time we got that GET endpoint working then... so on to the next step.
+So there have it, we've not done a real transaction in our microservice. Its about time we got that GET endpoint working then... so on to the next step.
