@@ -7,17 +7,17 @@ The microservice we are creating will handle one of three things:
 ### Group 1 - Create and list Machines
 This microservice will enable the front end to create new machines, as well as get all currently configured machines and their status.<br/><br/>
 
-You will need to download from the <b>create-machine-microservice</b> repo
+You will need to download from the [<b>create-machine-microservice</b>](https://github.com/softcon17/create-machine-microservice) repo
 
 ### Group 2 - Update and list Machine Status
 Group 2's microservice will allow the status of a machine to be updated, as well as get all currently configured machines and their status.<br/><br/>
 
-You will need to download from the <b>update-machine-microservice</b> repo
+You will need to download from the [<b>update-machine-microservice</b>](https://github.com/softcon17/update-machine-microservice) repo
 
 ### Group 3 - Make and Get Bookings
 The microservice handles all things booking. So getting the current bookings, and enabling the addition of new bookings.<br/><br/>
 
-You will need to download from the <b>booking-microservice</b> repo
+You will need to download from the [<b>booking-microservice</b>](https://github.com/softcon17/booking-microservice) repo
 
 ## Download and Install the Microservice
 
@@ -31,7 +31,7 @@ Just like the front end application, we need install all the dependencies that m
 npm install
 ```
 
-If you have issues, or this seems to be taking too long, you can also download and open the pre-built version from the <b>prebuilt-environment</b> repository.<br/><br/>
+If you have issues, or this seems to be taking too long, you can also download and open the pre-built version from the [<b>prebuilt-environment</b>](https://github.com/softcon17/prebuilt-environment) repository.<br/><br/>
 
 The quick and dirty way to launch the application, skipping tests or startup scripts is to use the node command, so assuming you are in the microservice folder app within your shell window you can run:
 ```
