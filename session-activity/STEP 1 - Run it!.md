@@ -47,11 +47,13 @@ npm -v // Should return 5.Something or greater
 
 #### Install Git Version Control
 
-Git allows you to safely change and share code. To install on Windows, use [Git for Windows](https://git-for-windows.github.io/).
+Git allows you to safely change and share code. If you want to add this to your list of skills learnt today, you can install it on windows using [Git for Windows](https://git-for-windows.github.io/). This is completely optional, beacause for the purposes of the lab you can also download the code instrad, as we mention below.
 
 #### Get the Example User Interface
 
 You can download the example-user-interface from our [Github repository](https://github.com/softcon17/example-user-interface). You can download a zip archive using this [direct link](https://github.com/softcon17/example-user-interface/archive/master.zip) or, if you are confident using Git, [clone](https://git-scm.com/docs/git-clone) the repository to your local machine.
+
+> If you download the zip, dont forget to extract it too before continuing
 
 ### Run the User Interface Locally
 
