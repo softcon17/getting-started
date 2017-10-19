@@ -47,7 +47,7 @@ npm -v // Should return 5.Something or greater
 
 #### Install Git Version Control
 
-Git allows you to safely change and share code. If you want to add this to your list of skills learnt today, you can install it on windows using [Git for Windows](https://git-for-windows.github.io/). This is completely optional, beacause for the purposes of the lab you can also download the code instrad, as we mention below.
+Git allows you to safely change and share code. If you want to add this to your list of skills learnt today, you can install it on windows using [Git for Windows](https://git-for-windows.github.io/). This is completely optional, because for the purposes of the lab you can also download the code instead, as we mention below.
 
 #### Get the Example User Interface
 
@@ -59,12 +59,12 @@ You can download the example-user-interface from our [Github repository](https:/
 
 That's enough reading and waiting, let's get our first app up and running!<br/><br/>
 
-During the session you will need to hop between apps running locally, and thoes running in Predix. We reccomend that as this time you open up two different command shells, one to run the `frontend`, another that we will will later use to manage the `backend`. As you will need to start and stop these applications a few times of the course of the session, it is much easier to have two, and have one that is set to run in the correct repo for each. <br/><br/>
+During the session you will need to hop between apps running locally, and those running in Predix. We recommend that this time you open up two different command shells, one to run the `frontend`, another that we will later use to manage the `backend`. As you will need to start and stop these applications a few times of the course of the session, it is much easier to have two, and have one that is set to run in the correct repo for each. <br/><br/>
 
 <b> But what shell should i use?</b><br/>
-If you are on windows, try searching using the start menu for `powershell ise`. The nice thing about this this is that via the `file` menu you can create multiple tabs within the same window.. so if you have it this would a great way to prevent you from getting confused over the course of the session. If not, try to search for `powershell`, `gitbash` or `cmd`. Give the support team a shout (or ask someone who looks like theyve sussed it) if you are struggling with this.<br/><br/>
+If you are on windows, try searching using the start menu for `powershell ise`. The nice thing about this this is that via the `file` menu you can create multiple tabs within the same window.. so if you have it this would a great way to prevent you from getting confused over the course of the session. If not, try to search for `powershell`, `gitbash` or `cmd`. Give the support team a shout (or ask someone who looks like they've sussed it) if you are struggling with this.<br/><br/>
 
-So lets get the frontend application up and running in the first shell window. You need to first naviate to the folder where you downloaded the code too. When you open the shell you will likley see something like this that indicates your current location:
+So lets get the frontend application up and running in the first shell window. You need to first navigate to the folder where you downloaded the code too. When you open the shell you will likley see something like this that indicates your current location:
 ```
 C:\Users\<USERID>\...
 ```
@@ -77,7 +77,7 @@ And then press tab. Hopefully it works out you were meaning to go to dour docume
 ```
 C:\Users\<USERID>\Documents\...
 ```
-Keep going with this untill you get inside the example frontend folder. You can also type in the command `ls` if you want to see the folders and files that are accessible from your current location.<br/><br/>
+Keep going with this until you get inside the example frontend folder. You can also type in the command `ls` if you want to see the folders and files that are accessible from your current location.<br/><br/>
 
 #### Installing Dependencies
 
