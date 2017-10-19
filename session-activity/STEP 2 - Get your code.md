@@ -15,15 +15,15 @@ Group 2's microservice will allow the status of a machine to be updated, as well
 You will need to download from the <b>update-machine-microservice</b> repo
 
 ### Group 3 - Make and Get Bookings
-The microservice handles all things booking. So getting the current bookings, and enabling the addition of new bookings..<br/><br/>
+The microservice handles all things booking. So getting the current bookings, and enabling the addition of new bookings.<br/><br/>
 
 You will need to download from the <b>booking-microservice</b> repo
 
 ## Download and Install the Microservice
 
-Firstly we need to get the code for the microservice we are going to be responsible for updating and pushing, so clone or downlaod the repo for your group number repo.<br/><br/>
+Firstly we need to get the code for the microservice we are going to be responsible for updating and pushing, so clone or download the repo for your group number repo.<br/><br/>
 
-Then in your second shell tab we need to naviage to this folder. So again using your `cd` commands, naviagte through your file system to the donwload location. You can verify you are in the right place by using the `ls` command to check the files listed are the same as thoes when you open the folder with file explorer.<br/><br/>
+Then in your second shell tab we need to navigate to this folder. So again using your `cd` commands, navigate through your file system to the download location. You can verify you are in the right place by using the `ls` command to check the files listed are the same as those when you open the folder with file explorer.<br/><br/>
 
 Just like the front end application, we need install all the dependencies that make up our app. So if you look in the root of the folder you can see that we again have a `package.json` file, so lets go and use the same technique as last time to install them all, running in your second shell:
 
