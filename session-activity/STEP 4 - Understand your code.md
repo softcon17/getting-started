@@ -1,8 +1,8 @@
 # Step 4 - Understand Your Code
 
-Back to the local envionment then and to our API. Hopefully your local frontend is already running in the first shell window, but to test the backend we also need to fire up the backend again. Within the second shell window we again need to run out start command, so run that command and get going.
+Back to the local environment then and to our API. Hopefully your local frontend is already running in the first shell window, but to test the backend we also need to fire up the backend again. Within the second shell window we again need to run out start command, so run that command and get going.
 
-> Top Tip! If you click on the shell and then press the `up` key, on most shell enviornments will cycle through previous commands you have run, so keep pressing up untill you find that `npm run` type command we used to get it running the first time. This is a super useful feature to know about when it comes to running more complex commands multiple times.<br/><br/>
+> Top Tip! If you click on the shell and then press the `up` key, on most shell environments will cycle through previous commands you have run, so keep pressing up untill you find that `npm run` type command we used to get it running the first time. This is a super useful feature to know about when it comes to running more complex commands multiple times.<br/><br/>
 
 Check everything is in order by hitting the local endpoint locally from your browser with its URL
 
@@ -106,7 +106,7 @@ console.log(sqlRow);
 ```
 If you save your changes, and run the application, after accessing the endpoint via the same URL we tested to begin with, you should now see loads of messages in the shell window, that look something like this:
 
-> In order to see changes dont forget to stop and restart the backend microserice. So again use that `CTRL + C` to stop the app, and then use the `up` key to locate and run the start command again
+> In order to see changes dont forget to stop and restart the backend microservice. So again use that `CTRL + C` to stop the app, and then use the `up` key to locate and run the start command again
 
 ```
 anonymous {
@@ -156,11 +156,11 @@ Once completed we can test locally. Add the localhost URL you have been testing 
 
 > If you closed the browser tab that contained your local user interface, you can navigate to `http://localhost:8080/` to see it again
 
-Lets now get our tested and saved backend changes into predix! Go to your shell window which you have been using to print out all thoes log messages, and stop the appliction using the hopefully now familiure `CTRL + C` command. Then we can push just like we did the first time, using the command
+Lets now get our tested and saved backend changes into predix! Go to your shell window which you have been using to print out all those log messages, and stop the application using the hopefully now familiar `CTRL + C` command. Then we can push just like we did the first time, using the command
 ```
 cf push
 ```
-Once uploaded, we can hop back into the cloud to test it thier also. Head back to `https://conference-booking-ui-app.run.aws-usw02-pr.ice.predix.io` in your browser and test it out by adding our predix URL we tested in step 3 into the GET MACHINE (or BOOKINGS) url bar option in the cog menu.
+Once uploaded, we can hop back into the cloud to test it there also. Head back to `https://conference-booking-ui-app.run.aws-usw02-pr.ice.predix.io` in your browser and test it out by adding our predix URL we tested in step 3 into the GET MACHINE (or BOOKINGS) url bar option in the cog menu.
 > Dont forget to add the https:// and the api/v1/<SOMETHING>
 <br/><br/>
  If all goes to plan, you should see data, this time coming from our predix based microservice and database rather than the local one. Fab!!! 
