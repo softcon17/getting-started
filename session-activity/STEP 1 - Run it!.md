@@ -1,6 +1,8 @@
 # Step 1 - Run it!
 
-Depending on how far you got with the pre-work, some of this you may have already tackled. But in addition to telling you what to install, we will also focus now on why we have done some of these things :)
+Depending on how far you got with the pre-work, some of this you may have already tackled. But in addition to telling you what to install, we will also focus now on why we have done some of these things :) 
+
+> If you have already installed everything, please dont do it again
 
 ### Installing PostgreSQL
 
